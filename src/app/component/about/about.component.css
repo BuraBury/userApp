@@ -11,10 +11,13 @@ h2{
   float: left;
   width: 45%;
   margin-right: 5%;
+  text-align: justify;
 }
 .side-div-right{
   width: 45%;
   margin-left: 5%;
   position: relative;
+  text-align: justify;
+
 }
 
