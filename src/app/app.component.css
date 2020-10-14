@@ -19,8 +19,12 @@
   }
   .btn-search:hover{
     background-color: rgba(255, 171, 157, .5);
-    border-radius: 20px;
+    border-radius: 26px;
     transition: .2s;
+  }
+
+  .lupa{
+    width: 20px;
   }
 
   /*@keyframes line {*/
