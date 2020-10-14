@@ -6,6 +6,8 @@ import {ContactComponent} from './component/contact/contact.component';
 import {PageNotFoundComponent} from './component/page-not-found/page-not-found.component';
 import {EconomyCarsComponent} from './component/economy-cars/economy-cars.component';
 import {EcoCombiComponent} from './component/eco-combi/eco-combi.component';
+import {LuxuryCarsComponent} from './component/luxury-cars/luxury-cars.component';
+import {LamborginiComponent} from './component/lamborgini/lamborgini.component';
 
 const routes: Routes = [
   {
@@ -25,8 +27,16 @@ const routes: Routes = [
     component: EconomyCarsComponent
   },
   {
-   path: 'eco-combi',
+    path: 'luxury-cars',
+    component: LuxuryCarsComponent
+  },
+  {
+    path: 'eco-combi',
     component: EcoCombiComponent
+  },
+  {
+    path: 'lamborgini',
+    component: LamborginiComponent
   },
   {
     path: '**',

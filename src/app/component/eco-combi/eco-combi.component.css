@@ -1,14 +1,29 @@
-.car-egz{
+.car-egz {
   display: inline-flex;
   width: 50%;
 }
 
-.info-section{
+.info-section {
   display: inline-block;
   width: 50%;
   margin-left: 50%;
+  margin-bottom: 25px;
 }
-a{
+
+a {
   text-decoration: none;
   color: black;
+}
+
+.car{
+  font-family: 'Orbitron', sans-serif;
+}
+
+img {
+  transition: .2s;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: .3s;
 }

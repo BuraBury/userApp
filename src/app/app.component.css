@@ -11,19 +11,20 @@
     color: rgba(255, 171, 157, .5);
   }
 
-  .btn-search{
+  .btn-search {
     border: none;
-    background-color:#f8f9fa;
+    background-color: #f8f9fa;
     padding: 10px 20px;
     transition: .2s;
   }
-  .btn-search:hover{
+
+  .btn-search:hover {
     background-color: rgba(255, 171, 157, .5);
     border-radius: 26px;
     transition: .2s;
   }
 
-  .lupa{
+  .lupa {
     width: 20px;
   }
 
