@@ -17,8 +17,13 @@ body {
 
 @media only screen and (max-width: 1417px) {
   body {
-    background-color: black;
-    opacity: .9 !important;
+
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
   }
 }
 
