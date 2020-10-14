@@ -4,6 +4,8 @@ import {HomeComponent} from './component/home/home.component';
 import {AboutComponent} from './component/about/about.component';
 import {ContactComponent} from './component/contact/contact.component';
 import {PageNotFoundComponent} from './component/page-not-found/page-not-found.component';
+import {EconomyCarsComponent} from './component/economy-cars/economy-cars.component';
+import {EcoCombiComponent} from './component/eco-combi/eco-combi.component';
 
 const routes: Routes = [
   {
@@ -17,6 +19,14 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+  {
+    path: 'economy-cars',
+    component: EconomyCarsComponent
+  },
+  {
+   path: 'eco-combi',
+    component: EcoCombiComponent
   },
   {
     path: '**',

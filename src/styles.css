@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+h2, h3, p, a {
+  font-family: "Arial", serif;
+}
+

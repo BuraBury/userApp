@@ -7,6 +7,8 @@ import { HomeComponent } from './component/home/home.component';
 import { AboutComponent } from './component/about/about.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
+import { EconomyCarsComponent } from './component/economy-cars/economy-cars.component';
+import { EcoCombiComponent } from './component/eco-combi/eco-combi.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PageNotFoundComponent } from './component/page-not-found/page-not-found
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    EconomyCarsComponent,
+    EcoCombiComponent
   ],
   imports: [
     BrowserModule,
