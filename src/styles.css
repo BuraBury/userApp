@@ -8,8 +8,17 @@ h2, h3, p, a {
 
 }
 
-body{
+body {
   background-image: url("assets/background.jpg");
   opacity: 0.9 !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1417px) {
+  body {
+    background-color: black;
+    opacity: .9 !important;
+  }
 }
 
