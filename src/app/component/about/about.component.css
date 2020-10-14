@@ -2,15 +2,14 @@ h1, h2, h3 {
   text-align: left;
 }
 
-
-
 .side-div-left {
   float: left;
   width: 45%;
   margin-right: 5%;
   text-align: justify;
 }
-.side-div-right{
+
+.side-div-right {
   width: 45%;
   margin-left: 5%;
   position: relative;
