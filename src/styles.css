@@ -5,5 +5,11 @@ h1 {
 
 h2, h3, p, a {
   font-family: "Arial", serif;
+
+}
+
+body{
+  background-image: url("assets/background.jpg");
+  opacity: 90%;
 }
 
